@@ -1,5 +1,5 @@
 ﻿using System;
-using Systs
+using Syst
 
 namespace ConsoleApplication4
 {
