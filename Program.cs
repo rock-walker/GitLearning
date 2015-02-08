@@ -8,10 +8,10 @@ namespace ConsoleApplication4
 {
 	class Program
 	{
-		static void Main(string[] args)
+		static void Main()
 		{
 			
-			HttpListener hl = new HttpListener();
+			var hl = new HttpListener();
 
 			var res = hl.BeginGetContext(StartConnection, hl);
 			res.AsyncWaitHandle.WaitOne();
