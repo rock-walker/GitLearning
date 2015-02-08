@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication4
 {
-	class HttpListenerHelper
+	class HttpListenerHelper1
 	{
 	}
 }

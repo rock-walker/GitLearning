@@ -12,6 +12,7 @@ namespace ConsoleApplication4
 		{
 			
 			var hl = new HttpListener();
+			hl.Start();
 
 			var res = hl.BeginGetContext(StartConnection, hl);
 			res.AsyncWaitHandle.WaitOne();
