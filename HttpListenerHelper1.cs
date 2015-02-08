@@ -1,7 +1,4 @@
-﻿using System;
-using Syst
-
-namespace ConsoleApplication4
+﻿namespace ConsoleApplication4
 {
 	class HttpListenerHelper1
 	{
