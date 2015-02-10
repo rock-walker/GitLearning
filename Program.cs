@@ -42,5 +42,10 @@ namespace ConsoleApplication4
 			if (res.IsCompleted)
 				Console.WriteLine("cool");
 		}
+
+		public void Gotomaster()
+		{
+			
+		}
 	}
 }
