@@ -40,12 +40,7 @@ namespace ConsoleApplication4
 		public static void EndConnection(IAsyncResult res)
 		{
 			if (res.IsCompleted)
-				Console.WriteLine("cool");
-		}
-
-		public void Gotomaster()
-		{
-			
+				Console.WriteLine("end connection");
 		}
 	}
 }
