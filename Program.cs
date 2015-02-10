@@ -26,7 +26,7 @@ namespace ConsoleApplication4
 			//try to amend
 			 HttpListenerResponse response = context.Response;
 			 // Construct a response. 
-			 string responseString = "<HTML><BODY> Hello world! " + DateTime.Now + "</BODY></HTML>";
+			 string responseString = "<HTML><BODY> Learning GIT! " + DateTime.Now + "</BODY></HTML>";
 			 byte[] buffer = Encoding.UTF8.GetBytes(responseString);
 			 // Get a response stream and write the response to it.
 			 response.ContentLength64 = buffer.Length;
@@ -40,7 +40,12 @@ namespace ConsoleApplication4
 		public static void EndConnection(IAsyncResult res)
 		{
 			if (res.IsCompleted)
-				Console.WriteLine("end connection");
+				Console.WriteLine("cool");
+		}
+
+		public void Gotomaster()
+		{
+			var list = new HttpListener();
 		}
 	}
 }
