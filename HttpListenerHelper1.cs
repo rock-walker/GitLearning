@@ -4,4 +4,9 @@
 	{
 		private int amendIt;
 	}
+
+	class DumbIdea
+	{
+		private int idea;
+	}
 }
