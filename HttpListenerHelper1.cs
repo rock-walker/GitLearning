@@ -4,10 +4,7 @@
 	{
 		private int amendIt;
 
-		private void TryRebase()
-		{
-			
-		}
+		private void FromRebaseBranch(){}
 	}
 
 	class DumbIdea
