@@ -46,6 +46,7 @@ namespace ConsoleApplication4
 		public void Gotomaster()
 		{
 			var list = new HttpListener();
+			list.Start();
 		}
 	}
 }
