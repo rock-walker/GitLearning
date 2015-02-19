@@ -9,4 +9,9 @@
 	{
 		private int idea;
 	}
+
+	abstract class DumbIdea1
+	{
+		public void FirstMethod(){}
+	}
 }
