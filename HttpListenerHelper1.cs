@@ -15,3 +15,7 @@
 		public void FirstMethod(){}
 	}
 }
+
+	class DI{}
+	class Foo{}
+	class Bar{}
