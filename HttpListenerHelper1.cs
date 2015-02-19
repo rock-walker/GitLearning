@@ -5,3 +5,7 @@
 		private int amendIt;
 	}
 }
+
+	class DI{}
+	class Foo{}
+	class Bar{}
