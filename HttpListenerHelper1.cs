@@ -3,6 +3,11 @@
 	class HttpListenerHelper1
 	{
 		private int amendIt;
+
+		private void TryRebase()
+		{
+			
+		}
 	}
 
 	class DumbIdea
