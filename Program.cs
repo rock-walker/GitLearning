@@ -14,7 +14,7 @@ namespace ConsoleApplication4
 		{
 			Thread.CurrentThread.Name = "main";
 			var t = new Thread(Go);
-			t.Name = "worker";
+			t.Name = "worker111";
 			t.Start();
 
 			Go();
