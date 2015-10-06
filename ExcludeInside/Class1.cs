@@ -4,14 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApplication4
+namespace ConsoleApplication4.ExcludeInside
 {
-	class Class1
-
-	{
-		public Class1()
-		{
-			
-		}
-	}
+    class Class1
+    {
+    }
 }

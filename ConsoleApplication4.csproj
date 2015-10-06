@@ -44,6 +44,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Class1.cs" />
+    <Compile Include="ExcludeInside\Class1.cs" />
+    <Compile Include="ExcludeInside\Class2.cs" />
     <Compile Include="HttpListenerHelper1.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
